@@ -1,0 +1,116 @@
+
+/* New Services Section */
+.wit {
+  margin-top: 55px;
+  position: relative;
+  display: block;
+}
+.wit .section-title h2 {
+	text-align: center;
+	font-size: 36px;
+    font-weight: 600;
+    color: #d2691e;
+  }
+  .wit .section-title h3 {
+    margin-top: 35px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1e1e1e;
+  }
+.wit .section-title span {
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 70px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #666;
+  letter-spacing: 1px;
+  }
+.card-holder{
+	display: flex;
+	align-items: flex-start;
+	gap: 1rem;
+    border: none !important;
+	flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 320px;
+    background-color: #ffffff;
+    border: none !important;
+    color: #000000;
+    margin: 2rem auto;
+}
+  .card__name{
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .card__img{
+	width: 100%;
+	height: 12rem;
+	object-fit: cover;
+  }
+  
+  .card-contents{
+    padding: 22px 22px 22px 22px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  h1{
+	margin-bottom: 1rem;
+	letter-spacing: 1px;
+  }
+  
+  p{
+    font-size: 0.9em;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 1rem;
+  }
+  
+  .card__read-more{
+	display: block;
+	opacity: 0;
+	height: 0;
+	transition: all 0.5s;
+  }
+  
+  .card__read-more--open{
+  display: block;
+  opacity: 100;
+  height: 100px;
+  transition: all ease-in-out 0.59s;
+  -webkit-transition: all ease-in-out 0.59s;
+  -moz-transition: all ease-in-out 0.59s;
+  -ms-transition: all ease-in-out 0.59s;
+  -o-transition: all ease-in-out 0.59s;
+}
+  
+  .read-more-btn{
+    text-decoration: none !important;
+    background-color: #fffcfc;
+    color: #000000;
+    align-items: center;
+    margin-left: 6%;
+    font-size: 12px;
+    padding: 9px 7px;
+    display: inline-block;
+    transition: all 0.59s;
+    display: inline-block;
+    position: relative;
+    border: none;
+    outline: none;
+    z-index: 1;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.read-more-btn:hover{
+	background: #eaeaee;
+	box-shadow: 0 0 2rem rgba(0,0,0,0.1);
+	transform: translateY(-3px);
+  }
+/* New Services Section */
